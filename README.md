@@ -1,15 +1,25 @@
+<div align="center">
+
+![Image](https://github.com/user-attachments/assets/fc6873fc-6017-424f-9004-93eca1dc53e3)
+
 # openai-agents-sandbox
 
-## 概要
+[![Python](https://img.shields.io/badge/Python-3.12.7-blue.svg)](https://www.python.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)](https://openai.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+## 🎯 概要
 OpenAI Agents Sandbox - OpenAIのエージェント機能を実験するためのプロジェクト。
 
-## セットアップ手順
+## 🚀 セットアップ手順
 
-### 前提条件
+### ✅ 前提条件
 - Python 3.12.7 以上
 - uv パッケージマネージャー
 
-### インストール
+### 💻 インストール
 
 1. 仮想環境の作成と有効化:
 ```bash
@@ -38,7 +48,7 @@ cp example/.env.example example/.env
 # OPENAI_API_KEY=あなたのAPIキーをここに設定
 ```
 
-## 使用方法
+## 🔍 使用方法
 
 exampleディレクトリに移動してサンプルコードを実行:
 
@@ -47,7 +57,7 @@ cd example
 python async_hello_world.py
 ```
 
-### 実行例
+### 📝 実行例
 このサンプルはプログラミングの再帰に関する詩的な応答を生成します:
 
 ```
@@ -60,9 +70,9 @@ Each step a mirror of past,
 Stack builds, then unwinds.
 ```
 
-## トラブルシューティング
+## 🔧 トラブルシューティング
 
-### よくある問題
+### ❓ よくある問題
 
 1. モジュールが見つからないエラー:
 ```
